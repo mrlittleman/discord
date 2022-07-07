@@ -2,9 +2,9 @@
 <odoo>  
   <act_window  id="action_car"  
       name="Car Inventor"  
-      res_model="discord"
+      res_model="car.inventory"
       view_mode="tree,form"  />  
-  <menuitem  id="menu_car"  
+  <menuitem  id="menu_car_inventory"  
       name="Car Inventory"  
       action="action_car"  />  
 </odoo>
