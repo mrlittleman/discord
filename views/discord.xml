@@ -1,0 +1,10 @@
+<?xml  version="1.0"?>  
+<odoo>  
+  <act_window  id="action_discord"  
+      name="Discord"  
+      res_model="discord"
+      view_mode="tree,form"  />  
+  <menuitem  id="menu_discord"  
+      name="Discord"  
+      action="action_discord"  />  
+</odoo>
